@@ -95,17 +95,17 @@
     }
 
     var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/WarSpaceArena.loader.js";
-    var config = {
-      dataUrl: buildUrl + "/WarSpaceArena.data",
-      frameworkUrl: buildUrl + "/WarSpaceArena.framework.js",
-      codeUrl: buildUrl + "/WarSpaceArena.wasm",
-      streamingAssetsUrl: "StreamingAssets",
-      companyName: "WarSpaceArena",
-      productName: "WarSpaceArena",
-      productVersion: "prototype-v5",
-      showBanner: unityShowBanner,
-    };
+      var loaderUrl = buildUrl + "WarSpaceArena_NO_SERVER.loader.js";
+      var config = {
+        dataUrl: buildUrl + "WarSpaceArena_NO_SERVER.data",
+        frameworkUrl: buildUrl + "WarSpaceArena_NO_SERVER.framework.js",
+        codeUrl: buildUrl + "WarSpaceArena_NO_SERVER.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "WAXLogin",
+        productVersion: "1.0",
+        showBanner: unityShowBanner,
+      };
 
     // By default Unity keeps WebGL canvas render target size matched with
     // the DOM size of the canvas element (scaled by window.devicePixelRatio)
